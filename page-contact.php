@@ -1,6 +1,7 @@
 <?php
 get_header();
 ?>
+
 <div class="contact prefooter">
     <div class="prefooter--atropos atropos">
             <div class="atropos-scale">
@@ -47,9 +48,9 @@ get_header();
                 </div>
             </div>
         </div>
-
     </div>
 </div>
+
 <?php
 get_footer();
 ?>

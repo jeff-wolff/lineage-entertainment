@@ -84,16 +84,6 @@ const creatorsStoriesAtropos = Atropos({
   alwaysActive: true,
   highlight: false
 });
-// const creatorsStorytellingAtropos = Atropos({
-//   el: '.creators-storytelling--atropos',
-//   shadow: false,
-//   activeOffset: 3,
-//   rotateXMax: 4,
-//   rotateYMax: 6,
-//   rotateTouch: 'scroll-y',
-//   alwaysActive: true,
-//   highlight: false
-// });
 const ourServicesAtropos = Atropos({
   el: '.our-services--atropos',
   shadow: false,
@@ -116,39 +106,67 @@ const prefooterAtropos = Atropos({
 });
 
 
+// Navigation
+menuBtn.addEventListener('click', (e) => {
+  e.preventDefault();
+  openNav();
+});
+
+menuCloseBtn.addEventListener('click', (e) => {
+  e.preventDefault();
+  closeNav();
+});
+
+function openNav() {
+  body.style.overflowY = 'hidden';
+  navMenu.classList.add('--open');
+};
+
+function closeNav() {
+  body.style.overflowY = 'visible';
+  navMenu.classList.remove('--open');
+};
+
+// function stickyNav() {
+//   let heroHeight;
+//   if (hero && hero !== null) {
+//     heroHeight = hero.offsetHeight;
+//   } else {
+//     heroHeight = 0;
+//   }
+//   let scrollPosition = document.documentElement.scrollTop || window.pageYOffset;
+//   // console.log(scrollPosition, heroHeight)
+//   if (scrollPosition >= heroHeight) {
+//       header.classList.add('--scrolled');
+//   } else {
+//       header.classList.remove('--scrolled');
+//   }
+// };
 
 
-
-
+// Reel Video Overlay
 playButton ? playButton.addEventListener('click', function() {
   openVideo();
-  blurMe = setInterval(function(){
-    videoFrame.blur();
-  },2000);
+  spamBlur();
 }) : '';
 
 reelButton ? reelButton.addEventListener('click', function(e) {
   e.preventDefault();
   openVideo();
-  blurMe = setInterval(function(){
-    videoFrame.blur();
-  },2000);
+  spamBlur();
 }) : '';
 
 reelButtonFooter ? reelButtonFooter.addEventListener('click', function(e) {
   e.preventDefault();
   openVideo();
-  blurMe = setInterval(function(){
-    videoFrame.blur();
-  },2000);
+  spamBlur();
 }) : '';
-
 
 videoCloseButton ? videoCloseButton.addEventListener('click', function() {
   closeVideo();
-  clearInterval(blurMe);
 }) : '';
 
+// ESC Key
 document.addEventListener('keydown', function(event) {
   let isVideoOpen = document.querySelector('.popup-video-wrap.--open');
   if (isVideoOpen && event.key === 'Escape') {
@@ -171,49 +189,11 @@ function closeVideo() {
   body.style.overflowY = 'visible';
   popUpWindow.classList.remove('--open');
   videoFrame.src = '';
+  clearInterval(blurMe); // Stop blur
 }
 
-
-function openNav() {
-  body.style.overflowY = 'hidden';
-  navMenu.classList.add('--open');
-};
-
-function closeNav() {
-  body.style.overflowY = 'visible';
-  navMenu.classList.remove('--open');
-};
-
-menuBtn.addEventListener('click', (e) => {
-  e.preventDefault();
-  openNav();
-});
-
-menuCloseBtn.addEventListener('click', (e) => {
-  e.preventDefault();
-  closeNav();
-});
-
-
-
-window.addEventListener('resize', function() {
-
-});
-
-
-
-// function stickyNav() {
-//   let heroHeight;
-//   if (hero && hero !== null) {
-//     heroHeight = hero.offsetHeight;
-//   } else {
-//     heroHeight = 0;
-//   }
-//   let scrollPosition = document.documentElement.scrollTop || window.pageYOffset;
-//   // console.log(scrollPosition, heroHeight)
-//   if (scrollPosition >= heroHeight) {
-//       header.classList.add('--scrolled');
-//   } else {
-//       header.classList.remove('--scrolled');
-//   }
-// };
+function spamBlur() {
+  blurMe = setInterval(function(){
+    videoFrame.blur();
+  },2000);
+}

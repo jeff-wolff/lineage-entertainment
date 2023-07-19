@@ -1060,7 +1060,7 @@ body.creators .more-to-sports {
     pointer-events: none;
 }
 
-.sports-cinema .tv:nth-child(1) {
+/* .sports-cinema .tv:nth-child(1) {
     transform: perspective(500px) rotateY(12deg) rotateX(-6deg);
 }
 .sports-cinema .tv:nth-child(2) {
@@ -1071,7 +1071,7 @@ body.creators .more-to-sports {
 }
 .sports-cinema .tv:nth-child(4) {
     transform: perspective(500px) rotateY(-16deg) rotateX(0);
-}
+} */
 .sports-cinema .tv:nth-child(5) {
     z-index: -1;
     background-image: none;
@@ -1083,7 +1083,7 @@ body.creators .more-to-sports {
     margin: 0 auto;
     align-self: center;
 }
-.sports-cinema .tv:nth-child(6) {
+/* .sports-cinema .tv:nth-child(6) {
     transform: perspective(500px) rotateY(16deg) rotateX(0);
 }
 .sports-cinema .tv:nth-child(7) {
@@ -1094,9 +1094,9 @@ body.creators .more-to-sports {
 }
 .sports-cinema .tv:nth-child(9) {
     transform: perspective(500px) rotateY(-6deg) rotateX(12deg);
-}
+} */
 @media (min-width: 1025px) {
-    .sports-cinema .tv:nth-child(1) {
+    /* .sports-cinema .tv:nth-child(1) {
         transform: perspective(500px) rotateY(3deg) rotateX(-3deg);
     }
     .sports-cinema .tv:nth-child(2) {
@@ -1107,12 +1107,12 @@ body.creators .more-to-sports {
     }
     .sports-cinema .tv:nth-child(4) {
         transform: perspective(500px) rotateY(3deg) rotateX(0);
-    }
+    } */
     .sports-cinema .tv:nth-child(5) {
         width: 33.3333%;
         height: auto;
     }
-    .sports-cinema .tv:nth-child(6) {
+    /* .sports-cinema .tv:nth-child(6) {
         transform: perspective(500px) rotateY(-3deg) rotateX(0);
     }
     .sports-cinema .tv:nth-child(7) {
@@ -1123,7 +1123,7 @@ body.creators .more-to-sports {
     }
     .sports-cinema .tv:nth-child(9) {
         transform: perspective(500px) rotateY(-3deg) rotateX(3deg);
-    }
+    } */
 }
 
 .wires {
@@ -3613,27 +3613,6 @@ footer p.legal {
 }
 
 
-/* Utility */
-@media (max-width: 767px) {
-    br.hide-for-small {
-        display: none;
-    }
-}
-@media (min-width: 1025px) {
-    br.hide-for-large-up {
-        display: none;
-    }
-}
-@media (min-width: 640px) {
-    br.show-for-small-only {
-        display: none;
-    }
-}
-
-[hidden] {
-    display: none;
-}
-
 /* Single Post */
 .body-single {
   min-height: 90vh;
@@ -3662,12 +3641,9 @@ footer p.legal {
   font-weight: 600;
 }
 
-
 .body-single .featured-image {
   margin-bottom: 30px;
 }
-
-
 
 .body-single h2,.body-single h3 {
   margin-top: 1.25em;
@@ -3725,10 +3701,7 @@ footer p.legal {
   background-color: #fff;
 }
 
-
-
-
-
+/* Wordpress */
 .wp-block-heading {
   font-weight: 600;
   margin-top: 3rem;
@@ -3779,3 +3752,23 @@ footer p.legal {
 }
 
 
+/* Utility */
+@media (max-width: 767px) {
+  br.hide-for-small {
+      display: none;
+  }
+}
+@media (min-width: 1025px) {
+  br.hide-for-large-up {
+      display: none;
+  }
+}
+@media (min-width: 640px) {
+  br.show-for-small-only {
+      display: none;
+  }
+}
+
+[hidden] {
+  display: none;
+}

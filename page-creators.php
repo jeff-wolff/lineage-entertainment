@@ -14,7 +14,6 @@ get_header();
           <h1 class="title"><span class="white">Lineage</span><br> <span class="black">Entertainment</span><br> <span class="white">Company</span></h1>
       </div>
   </div>
-
   <div class="more-to-sports">
       <div class="container">
           <p><button id="playButton" class="reel-button"><svg width="15" height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M6 4l15 8-15 8z" /></svg> Watch Full Reel</button></p>
@@ -217,10 +216,7 @@ get_header();
                               <div class="icon"><img src="<?php bloginfo('template_directory'); ?>/assets/images/icons/icon-expand.png" alt="" loading="lazy"></div> <p>OOH ACTIVATIONS</p>
                           </li>
                       </ul>
-
                   </div>
-
-
               </div>
           </div>
       </div>
