@@ -13,7 +13,7 @@ Minimal boilerplate theme for WordPress with PostCSS and Vite.
 - npm or yarn
 
 ## Quick Start
-In the root of lineage-entertainmnet theme
+In the root of lineage-entertainment theme
 
 Install dependencies
 ```
