@@ -20,7 +20,7 @@ Install dependencies
 npm i
 ```
 
-In your ```wp-config.php``` file, add :
+In your ```wp-config.php``` file, add:
 ```
 # for dev
 define('WP_ENV', 'development');
@@ -32,19 +32,18 @@ define('WP_ENV', 'production');
 
 ## Scripts
 
-Launch dev mode
+**Launch dev mode**
 ```
 npm run dev
 ```
 
-Build the assets
+**Build the assets**
 ```
 npm run build
 ```
 
-Generate favicon
-
-Add values in ```config/global.php``` file and run :
+**Generate favicon**
+Add values in ```config/global.php``` file and run:
 
 ```
 npm run favicon
