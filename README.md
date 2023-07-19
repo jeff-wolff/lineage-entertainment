@@ -1,12 +1,12 @@
 # Press Wind
 
-Minimal boilerplate theme for WordPress with PostCSS and Vite JS.
+Minimal boilerplate theme for WordPress with PostCSS and Vite.
 
 ## 👉 [Complete documentation here](https://presswind-doc.wp-performance.com/)
 
 ## Dependencies
 - [PostCSS](https://postcss.org/)
-- [ViteJS](https://vitejs.dev/)
+- [Vite](https://vitejs.dev/)
 
 ## Requirement
 - Node JS (16)
@@ -28,7 +28,7 @@ define('WP_ENV', 'development');
 define('WP_ENV', 'production');
 ```
 
-### With Vitejs, you have a dev server include. When you change a file, the browser reload the page.
+### With Vite, you have a dev server include. When you change a file, the browser reload the page.
 
 ## Scripts
 
