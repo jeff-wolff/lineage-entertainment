@@ -4,7 +4,6 @@ Minimal boilerplate theme for WordPress with Tailwind CSS and Vite JS.
 
 ## 👉 [Complete documentation here](https://presswind-doc.wp-performance.com/)
 
-## 👉 [FSE Version on this branch](https://github.com/WP-Performance/press-wind/tree/FSE)
 
 ## Concept
 
