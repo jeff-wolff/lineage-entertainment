@@ -28,7 +28,7 @@ define('WP_ENV', 'development');
 define('WP_ENV', 'production');
 ```
 
-### With Vite you have a dev server included. When you change a file, the browser reloads the page.
+### With Vite you have a dev server included. When you change a file the browser reloads the page.
 
 ## Scripts
 
