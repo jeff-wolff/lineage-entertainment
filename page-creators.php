@@ -78,19 +78,17 @@ get_header();
                       <div class="section-green" data-atropos-offset="2">
                           <p>We connect creative producers to talent, brands, and networks to develop premium branded entertainment that makes noise, makes money, and makes an impact on the culture.</p>
                       </div>
+
                       <div class="creators-scribble"><img src="<?php bloginfo('template_directory'); ?>/assets/images/scribble.png" alt="" loading="lazy"></div>
 
-
                       <div class="guide-arrows green">
-                          <img src="<?php bloginfo('template_directory'); ?>/assets/images/guide-arrow1.svg" alt="">
-                          <img src="<?php bloginfo('template_directory'); ?>/assets/images/guide-arrow2.svg" alt="">
-                          <img src="<?php bloginfo('template_directory'); ?>/assets/images/guide-arrow3.svg" alt="">
-                          <img src="<?php bloginfo('template_directory'); ?>/assets/images/guide-arrow4.svg" alt="">
-                          <img src="<?php bloginfo('template_directory'); ?>/assets/images/guide-arrow5.svg" alt="">
+                        <img src="<?php bloginfo('template_directory'); ?>/assets/images/guide-arrow1.svg" alt="">
+                        <img src="<?php bloginfo('template_directory'); ?>/assets/images/guide-arrow2.svg" alt="">
+                        <img src="<?php bloginfo('template_directory'); ?>/assets/images/guide-arrow3.svg" alt="">
+                        <img src="<?php bloginfo('template_directory'); ?>/assets/images/guide-arrow4.svg" alt="">
+                        <img src="<?php bloginfo('template_directory'); ?>/assets/images/guide-arrow5.svg" alt="">
                       </div>
                   </div>
-
-
               </div>
           </div>
       </div>
@@ -160,11 +158,11 @@ get_header();
                               <img src="<?php bloginfo('template_directory'); ?>/assets/videos/static.webp">
                           </video>
                       </div>
-                      <div class="title" data-atropos-offset="4"><h2 class="stylized large">We Make...</h2></div>
+
                       <img src="<?php bloginfo('template_directory'); ?>/assets/images/our-services-wires.png" alt="" class="our-services-wires" data-atropos-offset="8">
-                      <img src="<?php bloginfo('template_directory'); ?>/assets/images/our-services-top-x.png" alt="" class="our-services-bg-top-x" data-atropos-offset="1">
                   </div>
                   <div class="our-services-content">
+                      <div class="title" data-atropos-offset="4"><h2 class="stylized large">We Make...</h2></div>
                       <ul data-atropos-offset="2">
                           <li>
                               <div class="icon"><img src="<?php bloginfo('template_directory'); ?>/assets/images/icons/icon-film-camera.png" alt="" loading="lazy"></div> <p>FEATURE DOCUMENTARIES (THEATRICAL, LINEAR, & OTT)</p>
@@ -212,6 +210,7 @@ get_header();
                               <div class="icon"><img src="<?php bloginfo('template_directory'); ?>/assets/images/icons/icon-expand.png" alt="" loading="lazy"></div> <p>OOH ACTIVATIONS</p>
                           </li>
                       </ul>
+                      <img src="<?php bloginfo('template_directory'); ?>/assets/images/our-services-top-x.png" alt="" class="our-services-bg-top-x" data-atropos-offset="1">
                       <div class="our-services-bg" >
                           <img src="<?php bloginfo('template_directory'); ?>/assets/images/our-services-bottom-x.png" alt="" class="our-services-bg-bottom-x" loading="lazy" data-atropos-offset="3">
 

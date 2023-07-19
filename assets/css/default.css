@@ -927,6 +927,7 @@ body.creators .more-to-sports {
     justify-content: center;
     align-items: center;
     position: relative;
+    z-index: 1;
     top: -1px;
     height: 100vh;
     min-height: 750px;
@@ -1183,7 +1184,7 @@ body.creators .more-to-sports {
     bottom: 0;
     width: 100%;
     margin-left: -25%;
-    z-index: 1;
+    z-index: -1;
 }
 
 .fan-behavior {
@@ -2054,6 +2055,8 @@ body.creators .more-to-sports {
     display: flex;
     flex-wrap: wrap;
     margin-top: -90px;
+    position: relative;
+    z-index: 5;
 
 }
 @media (min-width: 768px) {
@@ -2100,7 +2103,7 @@ body.creators .more-to-sports {
 .creators-stories .creators-tablet {
     position: relative;
     max-width: 1007px;
-    z-index: 3;
+    z-index: -2;
 
     width: 80%;
     pointer-events: none;
@@ -2457,7 +2460,8 @@ body.creators .more-to-sports {
     top: 41%;
     right: 5%;
     max-width: 14%;
-    z-index: 5;
+    z-index: -1;
+
     pointer-events: none;
     user-select: none;
 }
@@ -2825,7 +2829,7 @@ body.creators .more-to-sports {
     width: 33.3333%;
     box-shadow: 8px 20px 20px rgba(0,0,0,.4);
     position: relative;
-    z-index: 3;
+    z-index: 2;
 }
 .our-services-tvs .tv:nth-child(1) {
     transform: perspective(500px) rotateY(3deg) rotateX(-3deg);
@@ -2839,7 +2843,7 @@ body.creators .more-to-sports {
 
 .our-services-wires {
     position: absolute;
-    z-index: 2;
+    z-index: -1;
     bottom: -28%;
     max-width: 90%;
     pointer-events: none;
@@ -2863,34 +2867,31 @@ body.creators .more-to-sports {
     }
 }
 .our-services .title {
-    z-index: 2;
+
     position: absolute;
-    bottom: -100%;
-    left: -20px;
+    top: -5%;
+    left: 0px;
 
 }
 @media (min-width: 390px) {
     .our-services .title {
-        bottom: -110%;
 
     }
 }
 @media (min-width: 600px) {
     .our-services .title {
-
-        left: -30px;
+        top: -7%;
+        left: 0px;
 
     }
 }
 @media (min-width: 768px) {
     .our-services .title {
-        bottom: -67%;
     }
 }
 @media (min-width: 1024px) {
     .our-services .title {
-        bottom: -52%;
-      }
+    }
 }
 
 .our-services .title .stylized {
@@ -2900,12 +2901,12 @@ body.creators .more-to-sports {
 }
 @media (min-width: 768px) {
     .our-services .title .stylized {
-        transform: rotate(-5deg);
+        transform: rotate(-3deg);
     }
 }
 @media (min-width: 1025px) {
     .our-services .title .stylized {
-        transform: rotate(0deg);
+        /* transform: rotate(0deg); */
     }
 }
 .our-services .title .stylized::after {
@@ -2913,8 +2914,8 @@ body.creators .more-to-sports {
 }
 
 .our-services-content {
-    z-index: 4;
     position: relative;
+    z-index: 2;
 
     display: flex;
     justify-content: center;
@@ -2967,7 +2968,7 @@ body.creators .more-to-sports {
     background-size: cover;
 
     position: relative;
-    z-index: 2;
+    z-index: 5;
 
 }
 @media (min-width: 480px) {
@@ -3060,7 +3061,7 @@ body.creators .more-to-sports {
     height: 100%;
     margin-left: auto;
     margin-right: auto;
-    z-index: -1;
+    z-index: -20;
     max-width: 1280px;
     display: flex;
     justify-content: center;
@@ -3077,10 +3078,11 @@ body.creators .more-to-sports {
 .our-services-bg-top-x {
     position: absolute;
     width: 25%;
-    bottom: -100%;
+    top: -10%;
     right: -5%;
     pointer-events: none;
     user-select: none;
+    z-index: -50;
 }
 .our-services-bg-scribble {
     position: absolute;
@@ -3248,6 +3250,7 @@ body.creators .more-to-sports {
     text-align: center;
     margin: 0 auto;
     text-transform: none;
+    padding: 0.12em 0.22em;
 }
 @media (min-width: 1920px) {
     .prefooter-title {
