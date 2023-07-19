@@ -43,6 +43,7 @@ npm run build
 ```
 
 **Generate favicon**
+
 Add values in ```config/global.php``` file and run:
 
 ```
