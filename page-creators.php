@@ -163,6 +163,13 @@ get_header();
                   </div>
                   <div class="our-services-content">
                       <div class="title" data-atropos-offset="4"><h2 class="stylized large">We Make...</h2></div>
+                      <img src="<?php bloginfo('template_directory'); ?>/assets/images/our-services-top-x.png" alt="" class="our-services-bg-top-x" data-atropos-offset="1">
+                      <div class="our-services-bg" >
+                          <img src="<?php bloginfo('template_directory'); ?>/assets/images/our-services-bottom-x.png" alt="" class="our-services-bg-bottom-x" loading="lazy" data-atropos-offset="3">
+
+                          <img src="<?php bloginfo('template_directory'); ?>/assets/images/our-services-scribble.png" alt="" class="our-services-bg-scribble" loading="lazy" data-atropos-offset="-3">
+                      </div>
+
                       <ul data-atropos-offset="2">
                           <li>
                               <div class="icon"><img src="<?php bloginfo('template_directory'); ?>/assets/images/icons/icon-film-camera.png" alt="" loading="lazy"></div> <p>FEATURE DOCUMENTARIES (THEATRICAL, LINEAR, & OTT)</p>
@@ -210,12 +217,6 @@ get_header();
                               <div class="icon"><img src="<?php bloginfo('template_directory'); ?>/assets/images/icons/icon-expand.png" alt="" loading="lazy"></div> <p>OOH ACTIVATIONS</p>
                           </li>
                       </ul>
-                      <img src="<?php bloginfo('template_directory'); ?>/assets/images/our-services-top-x.png" alt="" class="our-services-bg-top-x" data-atropos-offset="1">
-                      <div class="our-services-bg" >
-                          <img src="<?php bloginfo('template_directory'); ?>/assets/images/our-services-bottom-x.png" alt="" class="our-services-bg-bottom-x" loading="lazy" data-atropos-offset="3">
-
-                          <img src="<?php bloginfo('template_directory'); ?>/assets/images/our-services-scribble.png" alt="" class="our-services-bg-scribble" loading="lazy" data-atropos-offset="-3">
-                      </div>
 
                   </div>
 
