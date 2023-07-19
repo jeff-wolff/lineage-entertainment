@@ -51,7 +51,8 @@ body {
         font-size: 21px;
     }
 }
-body.single {
+body.single,
+body.error404 {
   background-color: #fff;
 }
 
@@ -3717,6 +3718,16 @@ footer p.legal {
 .body-single ol ol ol {
   list-style-type: lower-roman;
 }
+
+/* Page */
+.body-page {
+  min-height: 90vh;
+  background-color: #fff;
+}
+
+
+
+
 
 .wp-block-heading {
   font-weight: 600;
