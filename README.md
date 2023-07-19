@@ -56,4 +56,4 @@ The "assets" code is in file : ```inc > assets.php```
 
 ## Disabled WP core functionality
 In ```inc > disable.php```, lots of feature are disabled.
-You can comment for not disable stuff for your project like you want.
+You can modify these as you like.
