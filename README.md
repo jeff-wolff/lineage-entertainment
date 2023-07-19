@@ -1,6 +1,6 @@
 # Press Wind
 
-Minimal boilerplate theme for WordPress with Tailwind CSS and Vite JS.
+Minimal boilerplate theme for WordPress with PostCSS and Vite JS.
 
 ## 👉 [Complete documentation here](https://presswind-doc.wp-performance.com/)
 
