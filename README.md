@@ -133,8 +133,3 @@ Example :
 
 In ```inc > disable.php```, lots of feature are disabled.
 You can comment for not disable stuff for your project like you want.
-
-
-## Screenshot
-
-![https://github.com/WP-Performance/press-wind/blob/main/screenshot.png](https://github.com/WP-Performance/press-wind/blob/main/screenshot.png)
