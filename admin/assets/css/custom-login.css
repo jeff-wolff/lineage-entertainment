@@ -1,45 +1,47 @@
 body {
-  background: #aab5e7;
+  background: #fff;
 }
 
 /* Logo */
 #login h1 a,
 .login h1 a {
-  background-image: url('../media/icon.svg');
+  background-image: url('../media/lec_logo.png');
   background-size: contain;
 }
 
 #login form,
 .login form {
-  background-color: #aab5e7;
-  border: 0;
+  background-color: #f7f7f7;
+  border-color: #ddd;
+  box-shadow: 1px 12px 30px rgba(0,0,0,.05);
 }
 
 #login form label,
 .login form label {
-  color: #2d385f;
+  color: #101010;
 }
 
 /* Bouton */
 .wp-core-ui .button-primary {
-  background: rgb(190, 24, 93);
-  border-color: rgb(190, 24, 93);
+  background: #b32600;
+  border-color: #ff3600;
+  border-radius: 0;
 }
 
 .wp-core-ui .button-primary:hover {
-  background: rgb(156, 17, 75);
-  border-color: rgb(163, 19, 79);
+  background: #df2f00;
+  border-color: #ff3600;
 }
 
 /* Liens */
 .login #backtoblog a,
 .login #nav a,
 .privacy-policy-page-link a {
-  color: #bbbfce;
+  color: #333;
 }
 
 .login #backtoblog a:hover,
 .login #nav a:hover,
 .privacy-policy-page-link a:hover {
-  color: rgb(190, 24, 93);
+  color: #f03300;
 }

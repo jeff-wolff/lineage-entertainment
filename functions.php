@@ -49,11 +49,11 @@ function setup()
     // ]);
 
     register_nav_menus([
-        'primary' => __('Primary Menu', 'press-wind'),
-        // 'secondary' => __('Secondary Menu', 'press-wind')
+        'primary' => __('Primary Menu', 'lineage-entertainment'),
+        'footer' => __('Footer Menu', 'lineage-entertainment')
     ]);
 
-    load_theme_textdomain('press-wind', get_template_directory() . '/languages');
+    load_theme_textdomain('lineage-entertainment', get_template_directory() . '/languages');
 }
 
 add_action('after_setup_theme', __NAMESPACE__ . '\setup');
@@ -61,8 +61,20 @@ add_action('after_setup_theme', __NAMESPACE__ . '\setup');
 /**
  * init assets front
  */
-load_assets('press-wind', dirname(__FILE__) . '', '3000');
+load_assets('lineage-entertainment', dirname(__FILE__) . '', '3000');
 /**
  * init assets admin
  */
-load_assets('press-wind-admin', dirname(__FILE__) . '/admin', '4444', true);
+load_assets('lineage-entertainment-admin', dirname(__FILE__) . '/admin', '4444', true);
+
+function add_nav_close_link($items, $args) {
+  // Check if the menu location is 'primary'
+  if ($args->theme_location === 'primary') {
+    // Append the custom link to the menu items
+    $items .= '<a href="#" id="navClose">Close</a>';
+  }
+  return $items;
+}
+add_filter('wp_nav_menu_items', __NAMESPACE__ . '\add_nav_close_link', 10, 2);
+
+define('DISALLOW_FILE_EDIT', true);

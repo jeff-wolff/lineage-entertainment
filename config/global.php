@@ -27,22 +27,22 @@ return [
     //   'windows' => false,
     // ],
     // ],
-    // 'disable' => [
-    //   // disable rss links
-    //   'rss' => true,
-    //   // remove all comments views
-    //   'comment' => true,
-    //   // disable emojis
-    //   'emoji' => true,
-    //   // media page
-    //   'media' => true,
-    //   // disable oembed
-    //   'oembed' => true,
-    //   // disable xmlrpc
-    //   'xmlrpc' => true,
-    //   // disble rest user endpoint
-    //   'rest_user' => true,
-    //   // disable jquery
-    //   'jquery' => false
-    // ]
+    'disable' => [
+      // disable rss links
+      'rss' => true,
+      // remove all comments views
+      // 'comment' => true,
+      // disable emojis
+      'emoji' => true,
+      // media page
+      'media' => true,
+      // disable oembed
+      'oembed' => true,
+      // disable xmlrpc
+      'xmlrpc' => true,
+      // disble rest user endpoint
+      'rest_user' => true,
+      // disable jquery
+      'jquery' => true
+    ]
 ];
