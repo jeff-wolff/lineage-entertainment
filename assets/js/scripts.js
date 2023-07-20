@@ -127,23 +127,6 @@ function closeNav() {
   navMenu.classList.remove('--open');
 };
 
-// function stickyNav() {
-//   let heroHeight;
-//   if (hero && hero !== null) {
-//     heroHeight = hero.offsetHeight;
-//   } else {
-//     heroHeight = 0;
-//   }
-//   let scrollPosition = document.documentElement.scrollTop || window.pageYOffset;
-//   // console.log(scrollPosition, heroHeight)
-//   if (scrollPosition >= heroHeight) {
-//       header.classList.add('--scrolled');
-//   } else {
-//       header.classList.remove('--scrolled');
-//   }
-// };
-
-
 // Reel Video Overlay
 playButton ? playButton.addEventListener('click', function() {
   openVideo();
