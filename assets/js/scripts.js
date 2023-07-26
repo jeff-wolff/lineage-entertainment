@@ -159,7 +159,7 @@ document.addEventListener('keydown', function(event) {
 
 function openVideo() {
   popUpWindow.hidden = false;
-  const url = 'https://player.vimeo.com/video/68304301?color=d8fe51&quality=720p&autoplay=1&muted=0';
+  const url = 'https://player.vimeo.com/video/848567003?h=e3f378e8f8&color=d8fe51&quality=1080p&autoplay=1&muted=0';
   setTimeout(() => {
     popUpWindow.classList.add('--open');
     body.style.overflowY = 'hidden';

@@ -26,12 +26,6 @@
             <a href="/"><img src="<?php bloginfo('template_directory'); ?>/assets/images/logo.png" alt="Lineage Entertainment Company logo" class="logo" loading="lazy"> Lineage</a>
         </div>
         <div class="footer__right">
-            <!-- <ul class="nav">
-                <li><a href="/">Home</a></li>
-                <li><a href="/creators">Creators</a></li>
-                <li><a href="#" id="reelButtonFooter"><svg style="vertical-align: middle;position: relative;top: -1.5px;" width="14" height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M6 4l15 8-15 8z" /></svg> Reel</a></li>
-                <li><a href="/contact">Contact</a></li>
-            </ul> -->
             <?php
                 wp_nav_menu(
                   array(

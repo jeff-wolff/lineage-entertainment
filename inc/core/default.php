@@ -44,8 +44,8 @@ return [
         'oembed' => true,
         // disable xmlrpc
         'xmlrpc' => true,
-        // disble rest user endpoint
-        'rest_user' => true,
+        // disable rest user endpoint
+        'rest_user' => false,
         // disable jquery
         'jquery' => true,
     ],
